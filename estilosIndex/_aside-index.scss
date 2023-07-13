@@ -1,0 +1,52 @@
+/* ASIDE */
+.ingresoIndex {
+    background-color: rgba(250, 235, 215, 0.384);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.aside {
+    grid-area: aside;
+    border: 1px solid #00000023;
+    flex-wrap: wrap;
+}
+
+.aside ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: square;
+}
+
+.aside li {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.aside a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.aside h2 {
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3px;
+}
+
+.aside button {
+    max-height: 30px;
+    text-align: center;
+}
+
+.aside p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}

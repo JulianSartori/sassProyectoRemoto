@@ -1,0 +1,71 @@
+/* DISEÑO RESPONSIVE */
+
+@media (max-width:769px) {
+    // INDEX //
+    .aside {
+        display: none;
+    }
+
+    .contHeader {
+        display: none;
+    }
+
+    .navMobile {
+        display: block;
+    }
+
+    .contMainIndex {
+        flex-wrap: wrap;
+        display: grid;
+        background-color: rgba(250, 235, 215, 0.295);
+        /* height: 100vh; */
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "carrousel__index carrousel__index"
+            "card1__index card2__index"
+            "card3__index card4__index";
+    }
+    .seccion2Index {
+        display: none;
+    }
+
+    .seccion2Mobile {
+        display: block;
+    }
+
+    // PAGE GENEROS //
+    .section1Generos {
+        display: none;
+    }
+
+    .sectionGenerosMobile {
+        display: block;
+        margin: 100px 0px 0px 0px;
+    }
+
+    // PAGE E-BOOKS //
+    .tituloEbooks {
+        margin: 100px 0px 0px 0px;
+    }
+
+    // PAGE MEMBRESIAS //
+    .ingresoMembresias {
+        margin: 100px 0px 0px 0px;
+    }
+
+    // PAGE CONTACTO
+    .mainContacto {
+        margin: 100px 0px 0px 0px;
+    }
+}
+
+/* ESTRATEGIA MOBILE LAST */
+/* max-width --> el @media aplica para todos los dispositivos menores al tamaño ej.500px --> para abajo */
+/* max-width--> si mi dispositivo tiene COMO MUCHO.... */
+/* SI el tamaño es superior, se mantiene el codigo (que escribi en vista de escritorio) */
+
+/* ESTRATEGIA MOBILE FIRST */
+/* /* min-width --> el @media aplica para todos los dispositivos mayores al tamaño ej.500px --> para arriba */
+/* min-width-_> si mi dispositivo tiene COMO MINIMO... */
+/* SI el tamaño es menor, se mantiene el codigo (que escribir en vista mobile) */
+

@@ -1,0 +1,48 @@
+/* MAIN */
+.contMainIndex {
+    flex-wrap: wrap;
+    display: grid;
+    background-color: rgba(250, 235, 215, 0.295);
+    /* height: 100vh; */
+    grid-template-columns: 1fr 1fr 0.5fr;
+    grid-template-areas:
+        "carrousel__index carrousel__index aside"
+        "card1__index card2__index aside"
+        "card3__index card4__index aside";
+}
+
+.carrousel__index {
+    grid-area: carrousel__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel__index img {
+    max-width: 300px;
+}
+
+.carousel-control-prev {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.titleIndex {
+    color: brown;
+    margin: 10px 10px 0px 0px;
+    background-color: rgba(255, 0, 0, 0.041);
+    width: 100%;
+}
+
+

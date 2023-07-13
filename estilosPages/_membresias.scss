@@ -1,0 +1,32 @@
+/* PAGE MEMBRESIAS */
+.listMembresias {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.listMembresias li {
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.listMembresias a {
+    text-decoration: none;
+}
+
+.tituloMembresias {
+    text-align: center;
+    color: brown;
+}
+
+.ingresoMembresias {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.ingresoMembresias form {
+    border: 1px solid rgba(0, 0, 0, 0.224);
+    padding: 3px;
+}

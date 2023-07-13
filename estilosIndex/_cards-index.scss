@@ -1,0 +1,64 @@
+/* CARDS-INDEX */
+.card__flex {
+    display: flex;
+    align-items: center;
+}
+
+.card__flex h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.card__flex p {
+    display: flex;
+    justify-content: center;
+}
+
+.card__flex a {
+    display: flex;
+    justify-content: center;
+}
+
+.card1__index {
+    grid-area: card1__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card-eltunel__index {
+    margin: 30px;
+}
+
+.card2__index {
+    grid-area: card2__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card3__index {
+    grid-area: card3__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card4__index {
+    grid-area: card4__index;
+    border: 1px solid #00000023;
+    display: flex;
+    justify-content: center;
+}
+
+.card2__index img {
+    max-width: 200px;
+}
+
+.card3__index img {
+    max-width: 200px;
+}
+
+.card4__index img {
+    max-width: 200px;
+}

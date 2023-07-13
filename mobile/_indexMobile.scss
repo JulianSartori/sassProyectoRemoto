@@ -1,0 +1,25 @@
+/* SECCION 2 INDEX - MOBILE */
+.contSeccion2Mobile{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "seccion2__mobile__card1 seccion2__mobile__card2"
+        "seccion2__mobile__card3 seccion2__mobile__card4";
+}
+
+.seccion2__mobile__card1 {
+    grid-area: seccion2__mobile__card1;
+}
+
+.seccion2__mobile__card2 {
+    grid-area: seccion2__mobile__card2;
+}
+
+.seccion2__mobile__card3 {
+    grid-area: seccion2__mobile__card3;
+}
+
+.seccion2__mobile__card4 {
+    grid-area: seccion2__mobile__card4;
+}
+
